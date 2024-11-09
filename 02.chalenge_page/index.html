@@ -1,0 +1,151 @@
+<html>
+    <head>
+        <title>Shopify</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            :root {
+                font-size: 62.5%;
+                font-family: sans-serif;
+            }
+
+            body header nav {
+                display: flex;
+                padding: 1.3rem;
+                align-items: center;
+                justify-content: space-between;
+                box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.1);
+            }
+
+            body header nav #menu-left {
+                width: 50%;
+                display: flex;
+            }
+
+            body header nav #menu-right {
+                width: 30%;
+                display: flex;
+            }
+
+            body header nav ul {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+            }
+
+            body header nav ul li {
+                list-style: none;
+            }
+
+            body header nav ul li a {
+                color: black;
+                font-weight: 600;
+                font-size: 1.4rem;
+                text-decoration: none;
+            }
+
+            body header nav #menu-right button {
+                border: none;
+                width: 15rem;
+                padding: .5rem;
+                color: white;
+                border-radius: .3rem;
+                background: blueviolet;
+                box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.1);
+            }
+
+            body main section {
+                display: flex;
+                justify-content: space-evenly;
+            }
+
+            body main section img {
+                height: 36rem;
+                width: max-content;
+            }
+
+            body main section .content-text {
+                gap: .5rem;
+                width: 29rem;
+                display: flex;
+                text-align: left;
+                align-items: left;
+                flex-direction: column;
+                justify-content: center;
+            }
+
+            body main section .content-text h2 {
+                font-size: 2.5rem;
+                color: blueviolet;
+            }
+
+            body main section .content-text h3 {
+                color: black;
+                font-size: 2rem;
+                margin-bottom: 1rem;
+            }
+
+            body main section .content-text p {
+                color: gray;
+                font-size: 1.5rem;
+                margin-bottom: 1rem;
+            }
+
+            body main section .content-text a {
+                color: black;
+                font-size: 1.5rem;
+                font-weight: bold;
+                text-decoration: none;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div id="menu-left">
+                    <img src="shopify-logo.svg" width="121" height="35" alt="">
+                    <ul>
+                        <li><a href="#">Start</a></li>
+                        <li><a href="#">Sell</a></li>
+                        <li><a href="#">Marketing</a></li>
+                        <li><a href="#">Manage</a></li>
+                    </ul>
+                </div>
+                <div id="menu-right">
+                    <ul>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Learn</a></li>
+                        <li><a href="#">Log in</a></li>
+                    </ul>
+                    <button>Start free trial</button>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section id="section-top">
+                <img src="start-image.png" width="647" height="506" alt="">
+                <div class="content-text">
+                    <h2>Start -</h2>
+                    <h3>your business journey</h3>
+                    <p>Find a business, buy a domain, and create a brand with our free tools.</p>
+                    <a href="#">Explore tools to start your bussines -></a>
+                </div>
+            </section>
+            
+            <section id="section-bottom">
+                <img src="market-image.jpg" width="678" height="543" alt="">
+                <div class="content-text">
+                    <h2>Market -</h2>
+                    <h3>your bussines</h3>
+                    <p>Take the guesswork out of marketing with built-in tools that help your create, execute, analyze campaings on Facebook and Google.</p>
+                    <a href="#">Explore how to market your bussines -></a>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
